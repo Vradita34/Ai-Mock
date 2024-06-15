@@ -2,9 +2,9 @@ import React from 'react'
 
 function DashboardLayout({ children }) {
     return (
-        <div>
-            {children}
-        </div>
+        <html lang="en">
+            <body className={inter.className}>{children}</body>
+        </html>
     )
 }
 
